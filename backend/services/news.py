@@ -46,6 +46,9 @@ class NewsService:
                 news_id=news.news_id,
                 author_id=author_id
             )
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError("Couldn't create news"), {"status_code": "500"})
             raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
         db.add(db_news)
         await db.commit()

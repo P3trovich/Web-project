@@ -34,7 +34,8 @@ def upgrade() -> None:
             'email': 'admin@example.com',
             'is_verified_author': True,
             'is_admin': True,
-            'avatar': '1.png'
+            'avatar': '1.png',
+            'password': admin123_hash
         },
     ])
 
@@ -61,11 +62,4 @@ def downgrade() -> None:
     op.execute(
         users.delete().
         where(users.c.email == 'admin@example.com')
-    )
-    
-    # Сбрасываем пароль пользователя с id=3 на NULL
-    op.execute(
-        users.update().
-        where(users.c.id == 3).
-        values(password=None)
     )

@@ -143,3 +143,73 @@
 {"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T21:00:49.352751Z"}
 {"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-13T21:01:21.806847Z"}
 {"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T21:01:21.826198Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-15T14:19:06.025526Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T14:25:32.966912Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-15T14:25:40.881149Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-15T14:25:41.002450Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-15T14:30:17.736993Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T14:30:35.802701Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T14:35:36.575902Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:35:54.628634Z"}
+{"email": "1@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-15T14:35:54.763274Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:35:55.694994Z"}
+{"email": "1@mail.ru", "error": "", "error_type": "HTTPException", "event": "registration_failed", "level": "error", "timestamp": "2025-12-15T14:35:55.701925Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-15T14:43:05.268541Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:43:24.493144Z"}
+{"email": "1@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-15T14:43:24.610980Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:43:27.403725Z"}
+{"email": "1@mail.ru", "error": "Cannot add middleware after an application has started", "error_type": "RuntimeError", "event": "registration_failed", "level": "error", "timestamp": "2025-12-15T14:43:27.408264Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:43:36.769048Z"}
+{"email": "1@mail.ru", "error": "Cannot add middleware after an application has started", "error_type": "RuntimeError", "event": "registration_failed", "level": "error", "timestamp": "2025-12-15T14:43:36.773083Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T14:44:18.708864Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T14:44:23.561793Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T14:52:03.075619Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T14:52:04.422383Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:52:12.211772Z"}
+{"email": "1@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-15T14:52:12.374924Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:52:13.502659Z"}
+{"email": "1@mail.ru", "error": "Cannot add middleware after an application has started", "error_type": "RuntimeError", "event": "registration_failed", "level": "error", "timestamp": "2025-12-15T14:52:13.506071Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:58:11.792668Z"}
+{"email": "1@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-15T14:58:11.974922Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T14:58:13.051685Z"}
+{"email": "1@mail.ru", "error": "Cannot add middleware after an application has started", "error_type": "RuntimeError", "event": "registration_failed", "level": "error", "timestamp": "2025-12-15T14:58:13.054531Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T15:01:15.828937Z"}
+{"email": "1@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-15T15:01:16.016357Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T15:01:17.273577Z"}
+{"email": "1@mail.ru", "error": "Cannot add middleware after an application has started", "error_type": "RuntimeError", "event": "registration_failed", "level": "error", "timestamp": "2025-12-15T15:01:17.280522Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T15:05:53.599142Z"}
+{"email": "1@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-15T15:05:53.768176Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T15:05:54.844564Z"}
+{"email": "1@mail.ru", "error": "'NoneType' object has no attribute 'send'", "error_type": "AttributeError", "event": "registration_failed", "level": "error", "timestamp": "2025-12-15T15:05:54.848478Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T15:09:07.132978Z"}
+{"email": "1@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-15T15:09:07.296260Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T15:11:31.484476Z"}
+{"email": "1@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-15T15:11:31.663071Z"}
+{"email": "1@mail.ru", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-15T15:11:35.951656Z"}
+{"email": "1@mail.ru", "error": "", "error_type": "HTTPException", "event": "registration_failed", "level": "error", "timestamp": "2025-12-15T15:11:36.068871Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-15T15:19:03.674460Z"}
+{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Iml2YW5AZXhhbXBsZS5jb20iLCJleHAiOjE3NjI5NzIzNzEsInR5cGUiOiJhY2Nlc3MifQ.APMJRq3B-djX2QmxRJddHSJUZYduI082ZjMH5jSoZSE", "event": "failed_getting_current_user", "level": "error", "timestamp": "2025-12-15T15:19:06.738951Z"}
+{"news_id": 1, "event": "getting_comments", "level": "info", "timestamp": "2025-12-15T15:19:10.893951Z"}
+{"event": "getting_comments", "level": "info", "timestamp": "2025-12-15T15:19:12.836410Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-15T15:19:14.671690Z"}
+{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwiZXhwIjoxNzY1ODA5MDMzLCJ0eXBlIjoiYWNjZXNzIn0.4OQWHc7CJzo5hEqhK60IXBGilk3eUI5UWqY3QInkXwc", "event": "failed_getting_current_user", "level": "error", "timestamp": "2025-12-15T15:19:19.054489Z"}
+{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwiZXhwIjoxNzY1NjU3MjM0LCJ0eXBlIjoiYWNjZXNzIn0.WH7aRTghSVkCHDf9-gj7Gk0rG18Ajo3Nn8sPSS_hhck", "event": "failed_getting_current_user", "level": "error", "timestamp": "2025-12-15T15:19:21.331678Z"}
+{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Iml2YW5AZXhhbXBsZS5jb20iLCJleHAiOjE3NjQxMDg0ODAsInR5cGUiOiJhY2Nlc3MifQ.uGFA86rnzOJCeuaLqjW0ZxwiFBhpCHqJh0wUqjcn5VA", "event": "failed_getting_current_user", "level": "error", "timestamp": "2025-12-15T15:19:24.311731Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T15:19:29.615178Z"}
+{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwiZXhwIjoxNzY1ODA5MDMzLCJ0eXBlIjoiYWNjZXNzIn0.4OQWHc7CJzo5hEqhK60IXBGilk3eUI5UWqY3QInkXwc", "event": "failed_getting_current_user", "level": "error", "timestamp": "2025-12-15T15:19:33.710151Z"}
+{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwiZXhwIjoxNzY1ODA5MDMzLCJ0eXBlIjoiYWNjZXNzIn0.4OQWHc7CJzo5hEqhK60IXBGilk3eUI5UWqY3QInkXwc", "event": "failed_getting_current_user", "level": "error", "timestamp": "2025-12-15T15:19:39.012319Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-15T15:19:49.393844Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-15T15:19:49.474302Z"}
+{"news_id": 3, "event": "creating_comment", "level": "info", "timestamp": "2025-12-15T15:19:53.067760Z"}
+{"news_id": 3, "author_id": 3, "event": "failed_creating_comment", "level": "error", "timestamp": "2025-12-15T15:19:53.070971Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-15T15:19:58.722002Z"}
+{"comment_id": 2, "event": "updating_comment_by_comment_id", "level": "info", "timestamp": "2025-12-15T15:20:02.113120Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-15T15:20:06.727704Z"}
+{"news_id": 1, "event": "deleting_news", "level": "info", "timestamp": "2025-12-15T15:20:09.766184Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T15:22:25.182795Z"}
+{"user_id": 3, "event": "get_all_user_sessions", "level": "info", "timestamp": "2025-12-15T15:22:30.469738Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T15:24:07.645856Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T15:26:49.995518Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-15T15:26:54.503773Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-15T15:27:17.515093Z"}
+{"event": "logout", "level": "info", "timestamp": "2025-12-15T15:27:25.343885Z"}

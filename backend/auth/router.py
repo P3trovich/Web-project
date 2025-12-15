@@ -89,7 +89,7 @@ async def get_my_sessions(
     ):
     logger.info(
             "get_all_user_sessions",
-            user_id=current_user.user_id
+            user_id=current_user.id
     )
     'Показать все сессии пользователя.'
     return await AuthService.get_user_sessions(current_user.id)
@@ -99,7 +99,7 @@ def get_current_user_info(current_user: User = Depends(get_current_user)):
     'Показать данные текущего пользователя.'
     logger.info(
             "getting_user_info",
-             user_id=current_user.user_id
+            user_id=current_user.id
     )
     return current_user
 

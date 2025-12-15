@@ -6,7 +6,6 @@ from argon2 import PasswordHasher
 from argon2.exceptions import VerifyMismatchError
 from sqlalchemy.ext.asyncio import AsyncSession
 from config import settings
-from tables.session import RefreshSession
 from tables.users import User
 from sqlalchemy import select
 from auth.schemas import Token, UserLogin
@@ -105,6 +104,9 @@ class AuthService:
 
             return {"message": "Successfully logged out"}
         else:
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError("Couldn't find a session"), {"status_code": "404"})
             raise HTTPException(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail="Refresh session not found"
@@ -171,8 +173,11 @@ class AuthService:
         result = await db.execute(select(User).where(User.email == user_data.email))
         existing_user = result.scalar_one_or_none()
         if existing_user:
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError("Couldn't create user"), {"status_code": "409"})
             raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
+                status_code=status.HTTP_409_CONFLICT,
                 detail="Email already registered"
             )
         password = AuthService.get_password_hash(user_data.password)
@@ -193,6 +198,9 @@ class AuthService:
         result = await db.execute(select(User).where(User.email == user_data.email))
         user = result.scalar_one_or_none()
         if not user or not AuthService.verify_password(user_data.password, user.password):
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError("Couldn't login user"), {"status_code": "401"})
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
                 detail="Incorrect email or password"
@@ -207,6 +215,9 @@ class AuthService:
         user_agent = request.headers.get("user-agent")
         refresh_token = request.headers.get("Authorization", "").replace("Bearer ", "")
         if not refresh_token:
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError("Refresh token problem"), {"status_code": "401"})
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
                 detail="Refresh token required"
@@ -214,6 +225,9 @@ class AuthService:
 
         payload = AuthService.verify_token(refresh_token)
         if not payload:
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError("Refresh token problem"), {"status_code": "401"})
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
                 detail="Invalid refresh token"
@@ -230,6 +244,9 @@ class AuthService:
         result = await db.execute(select(User).where(User.id == user_id))
         user = result.scalar_one_or_none()
         if not user:
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError("Couldn't find a user"), {"status_code": "401"})
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
                 detail="User not found"
@@ -240,11 +257,7 @@ class AuthService:
     
     async def get_github_callback(db: AsyncSession, request: Request):
         try:
-            user = await github_sso.verify_and_process(request)
-
-            if not user:
-                raise HTTPException(401, "GitHub authentication failed")
-            
+            user = await github_sso.verify_and_process(request)           
             db_user = await AuthService.create_or_update_user_from_github(db, user)
             user_agent = request.headers.get("user-agent")
 
@@ -252,4 +265,10 @@ class AuthService:
         
         except Exception as e:
             print(f"GitHub OAuth error: {e}")
-            raise HTTPException(400, f"GitHub authentication failed: {str(e)}")
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError(f"GitHub OAuth error: {e}"), {"status_code": "401"})
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="GitHub authentication failed"
+            )

@@ -17,6 +17,9 @@ class CommentService:
                 news_id=news_id,
                 author_id=author_id
             )
+            from app_initialize_hawk import get_hawk
+            hawk = get_hawk()
+            hawk.send(ValueError("Couldn't create a comment"), {"status_code": "404"})
             raise HTTPException(status_code=404, detail="News not found")
         
         db_comment = Comment(**comment.model_dump(), news_id=news_id, author_id=author_id)

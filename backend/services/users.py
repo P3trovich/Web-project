@@ -8,7 +8,7 @@ from monitoring.monitoring import logger
 
 class UserService:
 
-    async def create_user(db: AsyncSession, user: user_schemas.UserCreate):
+    '''async def create_user(db: AsyncSession, user: user_schemas.UserCreate):
         result = await db.execute(select(User).where(User.email == user.email))
         existing_user = result.scalar_one_or_none()
         if existing_user:
@@ -28,7 +28,7 @@ class UserService:
         db.add(user)
         await db.commit()
         await db.refresh(user)
-        return user
+        return user'''
 
     async def get_users(db: AsyncSession, skip: int = 0, limit: int = 100):
         result = await db.execute(select(User).offset(skip).limit(limit))
