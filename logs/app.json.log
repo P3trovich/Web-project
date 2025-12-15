@@ -1,0 +1,145 @@
+{"email": "123@mail.ru", "client_ip": "172.18.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T14:40:13.315171Z"}
+{"email": "123@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T14:40:13.725147Z"}
+{"email": "123@mail.ru", "client_ip": "172.18.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T14:43:41.316959Z"}
+{"email": "123@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T14:43:41.774856Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T14:43:41.775719Z"}
+{"email": "1234@mail.ru", "client_ip": "172.18.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T14:43:54.337597Z"}
+{"email": "1234@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T14:43:54.561391Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T14:43:54.564016Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T14:47:55.221613Z"}
+{"task_id": "7b426c43-45e4-4042-8bd7-24bc1e1f4b32", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T14:47:55.222458Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T14:47:55.250602Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T14:48:13.847801Z"}
+{"task_id": "7642bc6d-0d7d-4b3e-aa1a-b63f35f2f166", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T14:48:13.848675Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T14:48:13.865753Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T14:49:11.448789Z"}
+{"task_id": "5bbc810b-9034-4bef-9f83-b2fd73a0f256", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T14:49:11.449715Z"}
+{"news_id": 4, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T14:49:11.468299Z"}
+{"email": "1234@mail.ru", "client_ip": "172.18.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T14:55:31.177515Z"}
+{"email": "1234@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T14:55:31.520241Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T14:55:31.521266Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T14:55:42.668584Z"}
+{"task_id": "01d26226-b337-4713-9fbc-2c376f474dfc", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T14:55:42.669559Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T14:55:42.693074Z"}
+{"email": "1234@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:11:21.734930Z"}
+{"email": "1234@mail.ru", "error": "", "error_type": "HTTPException", "event": "registration_failed", "level": "error", "timestamp": "2025-12-13T15:11:21.804703Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:11:31.533014Z"}
+{"task_id": "b0319e20-8030-4e19-a984-72166a6b2451", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T15:11:31.533993Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:11:31.573085Z"}
+{"email": "1234@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:19:07.856332Z"}
+{"email": "1234@mail.ru", "error": "", "error_type": "HTTPException", "event": "registration_failed", "level": "error", "timestamp": "2025-12-13T15:19:07.862422Z"}
+{"email": "12345@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:19:10.862462Z"}
+{"email": "12345@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T15:19:11.057532Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T15:19:11.058301Z"}
+{"email": "12345@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:21:17.111150Z"}
+{"email": "12345@mail.ru", "error": "", "error_type": "HTTPException", "event": "registration_failed", "level": "error", "timestamp": "2025-12-13T15:21:17.115498Z"}
+{"email": "123456@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:21:22.296800Z"}
+{"email": "123456@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T15:21:22.510262Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T15:21:22.511218Z"}
+{"email": "123456@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:23:58.406271Z"}
+{"email": "123456@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T15:23:58.558464Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T15:23:58.559106Z"}
+{"email": "123456@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:32:27.396827Z"}
+{"email": "123456@mail.ru", "error": "", "error_type": "HTTPException", "event": "registration_failed", "level": "error", "timestamp": "2025-12-13T15:32:27.400488Z"}
+{"email": "1234576@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:32:31.449757Z"}
+{"email": "1234576@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T15:32:31.559205Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T15:32:31.559744Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:32:40.265321Z"}
+{"task_id": "a4f0cba5-8f88-4db8-a95c-f494cc97382a", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T15:32:40.266154Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:32:40.281434Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:34:58.309383Z"}
+{"task_id": "0b444f78-cc3c-479f-8c83-891215575f6e", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T15:34:58.310082Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:34:58.317367Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:34:59.009282Z"}
+{"task_id": "e366b364-f6aa-465f-accf-a6b3cc787e6e", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T15:34:59.009726Z"}
+{"news_id": 4, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:34:59.018681Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:34:59.630305Z"}
+{"task_id": "4da58b4a-4ac2-4075-9491-09d8aadbb8fe", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T15:34:59.631021Z"}
+{"news_id": 5, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:34:59.638614Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:35:00.110355Z"}
+{"task_id": "7cc8fc18-f39b-42f6-a045-54e3ceee73a5", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T15:35:00.110870Z"}
+{"news_id": 6, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:35:00.121502Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:41:47.268481Z"}
+{"task_id": "7c1cf718-b4ad-4abf-8211-8a4612e363de", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T15:41:47.269291Z"}
+{"news_id": 7, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:41:47.277445Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:41:48.007846Z"}
+{"task_id": "5011252b-d2cb-407f-af45-74aada682478", "event": "celery_task_created", "level": "info", "timestamp": "2025-12-13T15:41:48.008292Z"}
+{"news_id": 8, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:41:48.016525Z"}
+{"email": "1234576@mail.ru", "client_ip": "172.18.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:50:53.976011Z"}
+{"email": "1234576@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T15:50:54.130482Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T15:50:54.131062Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:51:07.606522Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:53:42.603852Z"}
+{"email": "1234576@mail.ru", "client_ip": "172.18.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:53:44.618261Z"}
+{"email": "1234576@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T15:53:44.783417Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T15:53:44.783941Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:53:55.784273Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:53:59.770942Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T15:54:01.776142Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:59:02.593560Z"}
+{"email": "1234576@mail.ru", "client_ip": "172.18.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T15:59:04.031865Z"}
+{"email": "1234576@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T15:59:04.246148Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T15:59:04.246869Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T15:59:19.241535Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T16:01:18.014398Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T16:01:34.552816Z"}
+{"news_id": 4, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T16:01:51.617384Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T16:27:40.165936Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T16:39:11.538662Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T16:44:43.475508Z"}
+{"notification_type": "news_published", "status": "success", "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T16:44:45.482164Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T16:55:39.645430Z"}
+{"extra": {"notification_type": "news_published", "status": "error", "error": "Retry in 2s: Exception('\u0421\u0438\u043c\u0443\u043b\u0438\u0440\u0443\u044e \u043e\u0448\u0438\u0431\u043a\u0438 \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u0438')", "event": "notification_sent", "timestamp": "2025-12-13T16:55:39.666129"}, "event": "notification_failed", "level": "error", "timestamp": "2025-12-13T16:55:39.666298Z"}
+{"extra": {"notification_type": "news_published", "status": "success", "event": "notification_sent", "timestamp": "2025-12-13T16:55:43.662558"}, "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T16:55:43.662582Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T17:11:24.648510Z"}
+{"extra": {"notification_type": "news_published", "status": "success", "event": "notification_sent", "timestamp": "2025-12-13T17:11:26.645865"}, "event": "notification_sent", "level": "info", "timestamp": "2025-12-13T17:11:26.645909Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T17:29:17.563016Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T17:29:35.675439Z"}
+{"news_id": 4, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T17:29:36.311280Z"}
+{"news_id": 5, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T17:29:36.890024Z"}
+{"news_id": 6, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T17:29:37.493701Z"}
+{"news_id": 7, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T17:29:38.119291Z"}
+{"news_id": 8, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T17:29:38.610095Z"}
+{"email": "1234576@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T17:30:39.775180Z"}
+{"email": "1234576@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T17:30:39.878922Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T17:30:39.879461Z"}
+{"email": "1234576@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T17:50:14.843363Z"}
+{"email": "1234576@mail.ru", "error": "", "error_type": "HTTPException", "event": "registration_failed", "level": "error", "timestamp": "2025-12-13T17:50:14.846723Z"}
+{"email": "12345764@mail.ru", "client_ip": "172.19.0.1", "user_agent": "PostmanRuntime/7.49.1", "event": "registration_started", "level": "info", "timestamp": "2025-12-13T17:50:17.520910Z"}
+{"email": "12345764@mail.ru", "has_tokens": true, "event": "registration_completed", "level": "info", "timestamp": "2025-12-13T17:50:17.627986Z"}
+{"event": "user_registered", "level": "info", "timestamp": "2025-12-13T17:50:17.628458Z"}
+{"event": "logout", "level": "info", "timestamp": "2025-12-13T19:43:23.825048Z"}
+{"event": "logout", "level": "info", "timestamp": "2025-12-13T19:52:36.270350Z"}
+{"event": "logout", "level": "info", "timestamp": "2025-12-13T19:52:51.401040Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-13T20:01:46.518586Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-13T20:04:41.562054Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T20:04:41.734238Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-13T20:04:48.203897Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T20:04:48.230297Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-13T20:04:54.247120Z"}
+{"news_id": 4, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T20:04:54.269144Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-13T20:15:33.938586Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-13T20:15:41.149199Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-13T20:15:48.034208Z"}
+{"news_id": 3, "event": "creating_comment", "level": "info", "timestamp": "2025-12-13T20:16:24.762651Z"}
+{"news_id": 3, "author_id": 3, "event": "failed_creating_comment", "level": "error", "timestamp": "2025-12-13T20:16:24.765369Z"}
+{"news_id": 3, "event": "creating_comment", "level": "info", "timestamp": "2025-12-13T20:16:47.455573Z"}
+{"news_id": 3, "author_id": 3, "event": "failed_creating_comment", "level": "error", "timestamp": "2025-12-13T20:16:47.458094Z"}
+{"news_id": 3, "event": "creating_comment", "level": "info", "timestamp": "2025-12-13T20:16:52.827924Z"}
+{"news_id": 3, "author_id": 3, "event": "failed_creating_comment", "level": "error", "timestamp": "2025-12-13T20:16:52.830556Z"}
+{"news_id": 3, "event": "creating_comment", "level": "info", "timestamp": "2025-12-13T20:17:18.040680Z"}
+{"news_id": 3, "author_id": 3, "event": "failed_creating_comment", "level": "error", "timestamp": "2025-12-13T20:17:18.043201Z"}
+{"news_id": 3, "event": "creating_comment", "level": "info", "timestamp": "2025-12-13T20:17:33.179329Z"}
+{"news_id": 3, "author_id": 3, "event": "failed_creating_comment", "level": "error", "timestamp": "2025-12-13T20:17:33.182590Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-13T20:52:47.564031Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-13T20:53:00.494469Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-13T20:53:20.286753Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-13T20:53:27.126066Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-13T20:54:30.649944Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-13T20:54:36.987721Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T20:54:37.082949Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-13T21:00:43.681535Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-13T21:00:49.188746Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T21:00:49.352751Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-13T21:01:21.806847Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-13T21:01:21.826198Z"}

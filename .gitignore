@@ -1,0 +1,9 @@
+backend/.env
+backend/.env.*
+backend/*.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+esdata/

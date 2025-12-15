@@ -1,0 +1,37 @@
+{
+  "dashboard": {
+    "title": "System Metrics",
+    "panels": [
+      {
+        "title": "HTTP Requests",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+        "targets": [{"expr": "rate(http_requests_total[5m])", "legendFormat": "req/s"}]
+      },
+      {
+        "title": "Request Duration",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0},
+        "targets": [{"expr": "histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m]))", "legendFormat": "95p latency"}]
+      },
+      {
+        "title": "News Created",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 8, "x": 0, "y": 8},
+        "targets": [{"expr": "news_created_total", "legendFormat": "total"}]
+      },
+      {
+        "title": "Users Registered",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 8, "x": 8, "y": 8},
+        "targets": [{"expr": "users_registered_total", "legendFormat": "total"}]
+      },
+      {
+        "title": "Notifications Sent",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 8, "x": 16, "y": 8},
+        "targets": [{"expr": "notifications_sent_total", "legendFormat": "total"}]
+      }
+    ]
+  }
+}

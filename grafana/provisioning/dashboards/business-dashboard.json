@@ -1,0 +1,54 @@
+{
+  "dashboard": {
+    "title": "Business Metrics",
+    "panels": [
+      {
+        "title": "News Created (Total)",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 8, "x": 0, "y": 0},
+        "targets": [{"expr": "news_created_total", "legendFormat": "Total news"}],
+        "fieldConfig": {"defaults": {"color": {"mode": "thresholds"}}}
+      },
+      {
+        "title": "News Created Rate",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 16, "x": 8, "y": 0},
+        "targets": [{"expr": "rate(news_created_total[5m])", "legendFormat": "News/min"}]
+      },
+      {
+        "title": "Users Registered (Total)",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 8, "x": 0, "y": 8},
+        "targets": [{"expr": "users_registered_total", "legendFormat": "Total users"}],
+        "fieldConfig": {"defaults": {"color": {"mode": "palette-classic"}}}
+      },
+      {
+        "title": "User Registration Rate",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 16, "x": 8, "y": 8},
+        "targets": [{"expr": "rate(users_registered_total[5m])", "legendFormat": "Users/min"}]
+      },
+      {
+        "title": "Notifications Sent",
+        "type": "stat",
+        "gridPos": {"h": 8, "w": 8, "x": 0, "y": 16},
+        "targets": [{"expr": "notifications_sent_total", "legendFormat": "Total notifications"}]
+      },
+      {
+        "title": "Notification Rate",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 16, "x": 8, "y": 16},
+        "targets": [{"expr": "rate(notifications_sent_total[5m])", "legendFormat": "Notif/min"}]
+      },
+      {
+        "title": "News vs Users",
+        "type": "barchart",
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 24},
+        "targets": [
+          {"expr": "news_created_total", "legendFormat": "News"},
+          {"expr": "users_registered_total", "legendFormat": "Users"}
+        ]
+      }
+    ]
+  }
+}
