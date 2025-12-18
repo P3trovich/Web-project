@@ -104,7 +104,7 @@ class AuthService:
 
             return {"message": "Successfully logged out"}
         else:
-            from app_initialize_hawk import get_hawk
+            from main import get_hawk
             hawk = get_hawk()
             hawk.send(ValueError("Couldn't find a session"), {"status_code": "404"})
             raise HTTPException(
@@ -173,7 +173,7 @@ class AuthService:
         result = await db.execute(select(User).where(User.email == user_data.email))
         existing_user = result.scalar_one_or_none()
         if existing_user:
-            from app_initialize_hawk import get_hawk
+            from main import get_hawk
             hawk = get_hawk()
             hawk.send(ValueError("Couldn't create user"), {"status_code": "409"})
             raise HTTPException(
@@ -198,7 +198,7 @@ class AuthService:
         result = await db.execute(select(User).where(User.email == user_data.email))
         user = result.scalar_one_or_none()
         if not user or not AuthService.verify_password(user_data.password, user.password):
-            from app_initialize_hawk import get_hawk
+            from main import get_hawk
             hawk = get_hawk()
             hawk.send(ValueError("Couldn't login user"), {"status_code": "401"})
             raise HTTPException(
@@ -215,7 +215,7 @@ class AuthService:
         user_agent = request.headers.get("user-agent")
         refresh_token = request.headers.get("Authorization", "").replace("Bearer ", "")
         if not refresh_token:
-            from app_initialize_hawk import get_hawk
+            from main import get_hawk
             hawk = get_hawk()
             hawk.send(ValueError("Refresh token problem"), {"status_code": "401"})
             raise HTTPException(
@@ -225,7 +225,7 @@ class AuthService:
 
         payload = AuthService.verify_token(refresh_token)
         if not payload:
-            from app_initialize_hawk import get_hawk
+            from main import get_hawk
             hawk = get_hawk()
             hawk.send(ValueError("Refresh token problem"), {"status_code": "401"})
             raise HTTPException(
@@ -244,7 +244,7 @@ class AuthService:
         result = await db.execute(select(User).where(User.id == user_id))
         user = result.scalar_one_or_none()
         if not user:
-            from app_initialize_hawk import get_hawk
+            from main import get_hawk
             hawk = get_hawk()
             hawk.send(ValueError("Couldn't find a user"), {"status_code": "401"})
             raise HTTPException(
@@ -265,7 +265,7 @@ class AuthService:
         
         except Exception as e:
             print(f"GitHub OAuth error: {e}")
-            from app_initialize_hawk import get_hawk
+            from main import get_hawk
             hawk = get_hawk()
             hawk.send(ValueError(f"GitHub OAuth error: {e}"), {"status_code": "401"})
             raise HTTPException(
