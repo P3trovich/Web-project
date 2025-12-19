@@ -92,4 +92,3 @@ async def test_get_news_by_id(client, get_token):
     response_json = response.json()
     print(f"Parsed JSON: {response_json}")
     assert response_json["author_id"] == 1
-

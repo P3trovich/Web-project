@@ -333,3 +333,179 @@
 {"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-18T11:51:41.314057Z"}
 {"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-18T11:51:41.347854Z"}
 {"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-18T11:51:41.380727Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T10:49:35.950041Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T10:49:48.942162Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T10:49:49.240721Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T10:49:49.275774Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:08:47.706542Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:08:47.807982Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:08:48.051049Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:08:48.168729Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:08:48.189409Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:08:48.224843Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:08:48.264666Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:11:09.325360Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:11:09.380147Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:11:09.506611Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:11:09.579606Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:11:09.591915Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:11:09.614566Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:11:09.638515Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:16:42.793977Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:16:42.842822Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:16:42.971175Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:16:43.040939Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:16:43.052515Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:16:43.072467Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:16:43.095493Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:19:43.988918Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:19:44.068170Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:19:44.235641Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:19:44.325928Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:19:44.340018Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:19:44.365629Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:19:44.389909Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:20:41.286502Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:20:41.354580Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:20:41.526077Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:20:41.613691Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:20:41.628986Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:20:41.650326Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:20:41.673318Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:23:26.052948Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:23:26.115165Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:23:26.279967Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:23:26.356018Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:23:26.368409Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:23:26.390116Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:23:26.414694Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:26:18.383564Z"}
+{"news_id": 2, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:26:30.167333Z"}
+{"news_id": 2, "event": "getting_comments", "level": "info", "timestamp": "2025-12-19T11:26:30.213124Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:26:35.261356Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:26:36.562797Z"}
+{"news_id": 1, "event": "getting_comments", "level": "info", "timestamp": "2025-12-19T11:26:36.576793Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:26:39.142944Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:29:18.945662Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:29:18.996266Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:29:19.110675Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:29:19.181460Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:29:19.192604Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:29:19.212346Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:29:19.232377Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:30:20.268582Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:30:20.319330Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:30:20.446448Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:30:20.532132Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:30:20.544994Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:30:20.569561Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:30:20.595316Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:34:58.249010Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:34:58.309033Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:34:58.426664Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:34:58.496434Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:34:58.507193Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:34:58.527987Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:34:58.550944Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:34:59.494927Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:42:14.990179Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:42:15.047168Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:42:15.163596Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:42:15.238379Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:42:15.249025Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:42:15.277029Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:42:15.302179Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:42:16.309412Z"}
+{"email": "admin123@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:42:16.638343Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:45:26.328711Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:45:26.384794Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:45:26.503727Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:45:26.581415Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:45:26.595777Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:45:26.618507Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:45:26.646518Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:45:27.920373Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:45:28.346295Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:45:28.729337Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T11:45:28.729570Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:46:13.368760Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:46:13.424676Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:46:13.547678Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:46:13.619462Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:46:13.633247Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:46:13.650351Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:46:13.671803Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:46:14.556944Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:46:14.908159Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:46:15.064563Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T11:46:15.064783Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:47:37.001839Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:47:37.052445Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:47:37.168805Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:47:37.244779Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T11:47:37.256874Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T11:47:37.278107Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T11:47:37.296774Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:47:38.267972Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:47:38.779626Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:47:38.963734Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T11:47:38.964117Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:55:11.662363Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T11:55:18.516515Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:55:18.647079Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T11:55:18.657660Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T11:55:21.496996Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T11:55:21.565917Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T11:55:21.584960Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:03:04.279461Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T12:03:04.338398Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T12:03:04.452144Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T12:03:04.560349Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T12:03:04.580578Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T12:03:04.603387Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T12:03:04.628397Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:03:06.782233Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T12:03:07.182500Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:03:07.337115Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T12:03:07.337258Z"}
+{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwiZXhwIjoxNzY2MTQ1NjE4LCJ0eXBlIjoiYWNjZXNzIn0.VZ9jJ2VtncBWzN27a9hgEi_EXSHAb1-k_Hx9qdUV5QE", "event": "failed_getting_current_user", "level": "error", "timestamp": "2025-12-19T12:05:52.608095Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:05:52.634796Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:05:54.793432Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:05:56.217302Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T12:06:30.377948Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T12:06:30.497908Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:06:30.511631Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:12:57.687806Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T12:12:57.754839Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T12:12:57.892108Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T12:12:57.980871Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T12:12:57.995152Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T12:12:58.020623Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T12:12:58.047478Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:12:58.988955Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T12:12:59.339435Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:12:59.533931Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T12:12:59.534202Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:16:18.324667Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T12:16:18.388968Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T12:16:18.517845Z"}
+{"news_id": 2, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T12:16:18.601055Z"}
+{"news_id": 1, "event": "changing news", "level": "info", "timestamp": "2025-12-19T12:16:18.614495Z"}
+{"news_id": 1, "event": "creating_comment", "level": "info", "timestamp": "2025-12-19T12:16:18.641332Z"}
+{"news_id": 1, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T12:16:18.665779Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:16:19.561101Z"}
+{"email": "admin@example.com", "event": "login_attempt", "level": "info", "timestamp": "2025-12-19T12:16:19.916711Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:16:20.102011Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T12:16:20.102332Z"}
+{"email": "admin@example.com", "event": "creating_news", "level": "info", "timestamp": "2025-12-19T12:16:20.411606Z"}
+{"news_id": 3, "user_id": "anonymous", "event": "news_created", "level": "info", "timestamp": "2025-12-19T12:16:20.481365Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:16:20.493630Z"}
+{"user_id": 3, "event": "getting_user_info", "level": "info", "timestamp": "2025-12-19T12:16:20.551167Z"}
+{"news_id": 3, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T12:16:20.575299Z"}
+{"news_id": 3, "event": "getting_comments", "level": "info", "timestamp": "2025-12-19T12:16:20.602197Z"}
+{"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwiZXhwIjoxNzY2MTQ2MjkwLCJ0eXBlIjoiYWNjZXNzIn0.oitvyQQJFcwZ69S5-gkfkkTof_zjJj7uDjhajBpx-5c", "event": "failed_getting_current_user", "level": "error", "timestamp": "2025-12-19T12:16:24.448656Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:16:24.480967Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:16:25.634491Z"}
+{"news_id": 3, "event": "getting_news_by_news_id", "level": "info", "timestamp": "2025-12-19T12:16:26.892168Z"}
+{"news_id": 3, "event": "getting_comments", "level": "info", "timestamp": "2025-12-19T12:16:26.905117Z"}
+{"event": "getting_news", "level": "info", "timestamp": "2025-12-19T12:16:30.982823Z"}
