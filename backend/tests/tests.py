@@ -1,5 +1,6 @@
 # tests/test_users.py
 import pytest
+
 @pytest.mark.asyncio
 async def test_get_news(client):
     """Тест получения списка пользователей"""
